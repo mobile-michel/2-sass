@@ -5,8 +5,8 @@
   "main": "eleventy.config.js",
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npx sass sass:_site/assets/css --watch",
-    "start": "npm run watch:sass & npm run watch:eleventy"
+    "watch:scss": "npx sass scss:_site/assets/css --watch",
+    "start": "npm run watch:scss & npm run watch:eleventy"
   },
   "keywords": ["Eleventy", "LiquidJS", "Pico CSS", "SASS"],
   "author": "Michel Maillard",
